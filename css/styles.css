@@ -1447,4 +1447,79 @@ button:focus {
   margin-bottom: 72px;
 }
 
+.cards-title-text{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--accent-color);
+margin-bottom: 8px;
+}
+
+.cards-section-text{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+  margin-bottom: 8px;
+}
+
 /* ------------------/Our Team----------------------- */
+/* ------------------Costumers-------------------- */
+.costumers{
+  padding: 120px 0;
+  width: 428px;
+}
+
+.cust-title{
+  line-height: 1.1;
+}
+
+.costumers-list{
+  display: inline;
+  /* justify-content: center; */
+  /* gap: 24px; */
+  width: 428px;
+  
+}
+
+.costumer-link{
+  border: 1px solid #8E8F99;
+  border-radius: 4px;
+  width: 190px;
+  height: 88px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #8e8f99;
+  border-color: #8E8F99;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+}
+
+.costumer-link:hover, .costumer-link:focus{
+  color: var(--hover-btn);
+  border-color: var(--hover-btn);  
+}
+
+
+.costumer-link:hover .icon, .costumer-link:focus .icon{
+  fill: var(--hover-btn);
+  
+}
+
+.icon{
+  fill: #8e8f99;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+/* ------------------/Costumers----------------------- */
