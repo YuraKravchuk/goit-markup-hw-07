@@ -2286,6 +2286,7 @@ button:focus {
     align-items: baseline;
   }
   
+  
   .logo-dark {
     font-family: var(--second-font);
     text-transform: uppercase;
@@ -2306,18 +2307,19 @@ button:focus {
     letter-spacing: 0.02em;
     color: var(--cloud-color);
     width: 264px;
+    
+    margin-bottom: 72px;
   }
-
-  .logo-span-footer {
-    color: var(--cloud-color);
-  }
-
+  
+  
+  
   .social-list {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 16px;
     margin-top: 16px;
+    
   }
   
   .social-list-link {
@@ -2346,15 +2348,12 @@ button:focus {
     
   }
   
-  .footer-logo{
-    margin-right: 120px;
-  }
   
   .footer-icon{
-
-    margin-right: 80px;
+    margin-bottom: 72px;
   }
-
+  
+  
   .footer-form-field-wrapper{
     display: block;
   
@@ -2375,7 +2374,7 @@ button:focus {
   .footer-form-input{
     display: block;
     height: 40px;
-    width: 264px;
+    width: 100%;
     padding: 8px 16px;
     background: none;
     border: 1px solid #FFFFFF;
@@ -2386,6 +2385,7 @@ button:focus {
     font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    margin-bottom: 16px;
     
   }
   
@@ -2396,15 +2396,12 @@ button:focus {
   
   .footer-form{
     display: block;
-
+    
+   
   }
   
   .footer-from-sumbit{
     
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
     height: 40px;
     min-width: 165px;
     background-color: var(--logo-color);
@@ -2426,7 +2423,10 @@ button:focus {
     margin-right: 24px;
   }
 
-  
+  .logo-span-footer {
+    color: var(--cloud-color);
+  }
+ 
 }
 
 /* -------------------/Footer---------------------- */
