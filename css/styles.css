@@ -1308,7 +1308,7 @@ button:focus {
 .menu-link:hover,
 .menu-link:focus{
  color: var(--hover-btn);
-} */
+} 
 
 .menu-link:hover::after,
 .menu-link:focus::after{
@@ -1424,7 +1424,7 @@ button:focus {
  .menu-link:hover,
  .menu-link:focus{
   color: var(--hover-btn);
- } */
+ } 
  
  .menu-link:hover::after,
  .menu-link:focus::after{
@@ -1445,7 +1445,7 @@ button:focus {
   .title {
     background: var(--accent-color);
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mobile/hero/people-office.png);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mobile/hero/people-office.jpg);
     background-size: cover;
     max-width: 1440px;
     background-repeat: no-repeat;
@@ -1700,6 +1700,15 @@ button:focus {
     border-color: var(--hover-btn);
   }
 }
+
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 428px),
+screen and (min-resolution: 192dpi) and (max-width: 428px),
+screen and (min-resolution: 2dppx) and (max-width: 428px){
+  .title {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mobile/hero/people-office@2x.jpg);
+  }
+}
+
 
 @media screen and (min-width: 428px) and (max-width: 768px){
   .title {
@@ -1958,6 +1967,14 @@ button:focus {
     border: none;
     fill: var(--white-color);
     border-color: var(--hover-btn);
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 768px),
+screen and (min-resolution: 192dpi) and (max-width: 768px),
+screen and (min-resolution: 2dppx) and (max-width: 768px){
+  .title {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero_image/people-office@2x.jpg);
   }
 }
 
@@ -2220,6 +2237,13 @@ button:focus {
     border-color: var(--hover-btn);
   }
 }
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 1158px),
+screen and (min-resolution: 192dpi) and (max-width: 1158px),
+screen and (min-resolution: 2dppx) and (max-width: 1158px){
+  .title {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero_image/people-office@2x.jpg);
+  }
+}
 
 @media screen and (min-width: 1158px) {
   .title {
@@ -2478,6 +2502,13 @@ button:focus {
     border: none;
     fill: var(--white-color);
     border-color: var(--hover-btn);
+  }
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1158px),
+screen and (min-resolution: 192dpi) and (min-width: 1158px),
+screen and (min-resolution: 2dppx) and (min-width: 1158px){
+  .title {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero_image/people-office@2x.jpg);
   }
 }
 
@@ -2692,6 +2723,7 @@ button:focus {
   }
 }
 
+
 /* ------------------/What are we doing--------------*/
 /* ------------------Our Team----------------------- */
 @media screen and (max-width: 428px){
@@ -2781,6 +2813,7 @@ button:focus {
     margin-bottom: 8px;
   }
 }
+
 
 @media screen and (min-width: 428px) and (max-width: 768px){
   .section-cards {
@@ -2877,6 +2910,7 @@ button:focus {
   }
 }
 
+
 @media screen and (min-width: 768px) and (max-width: 1158px){
   .section-cards {
     background: var(--cloud-color);
@@ -2971,6 +3005,7 @@ button:focus {
     margin-bottom: 8px;
   }
 }
+
 
 @media screen and (min-width: 1158px) {
   .section-cards {
