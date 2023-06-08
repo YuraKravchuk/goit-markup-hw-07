@@ -891,7 +891,7 @@ button:focus {
   margin-right: auto;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
   .page-header-container{
     display: flex;
     justify-content: space-between ;
@@ -907,7 +907,7 @@ button:focus {
   } 
   
   .container{
-    width: 428px;
+    max-width: 768px;
     padding-left: 16px;
     padding-right: 16px;
   }
@@ -1010,7 +1010,7 @@ button:focus {
   }
   
   .menu-list-mobile{
-    padding-top: 40px;
+    padding-top: 80px;
     padding-left: 24px;
     
   }
@@ -1029,7 +1029,7 @@ button:focus {
   .contact-info-addr {
     font-style: normal;
     color: var(--color-text);
-    margin-left: auto;
+    text-align: center;
    
   }
   .contact-info-item {
@@ -1441,7 +1441,7 @@ button:focus {
 /* ---------------------/Header--------------------- */
 /* ---------------------Hero---------------- */
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
   .title {
     background: var(--accent-color);
     padding: 188px 0;
@@ -1452,6 +1452,7 @@ button:focus {
     background-position: center;
     height: 600px;
     margin: 0 auto;
+    min-width: 768px;
   }
   
   .main-title {
@@ -1701,9 +1702,9 @@ button:focus {
   }
 }
 
-@media screen and (min-device-pixel-ratio: 2) and (max-width: 768px),
-screen and (min-resolution: 192dpi) and (max-width: 768px),
-screen and (min-resolution: 2dppx) and (max-width: 768px){
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+screen and (min-resolution: 192dpi) and (max-width: 767px),
+screen and (min-resolution: 2dppx) and (max-width: 767px){
   .title {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mobile/hero/people-office@2x.jpg);
   }
@@ -1721,6 +1722,7 @@ screen and (min-resolution: 2dppx) and (max-width: 768px){
     background-position: center;
     height: 600px;
     margin: 0 auto;
+    
   }
   
   .main-title {
@@ -2256,6 +2258,7 @@ screen and (min-resolution: 2dppx) and (max-width: 1158px){
     background-position: center;
     height: 600px;
     margin: 0 auto;
+    
   }
   
   .main-title {
@@ -2514,7 +2517,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px){
 
 /* ---------------------/Hero---------------- */
 /* ------------------Strategy-------------------- */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
   .section-text {
     font-family: 'Roboto';
     font-style: normal;
@@ -2685,7 +2688,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px){
 }
 /* ------------------/Strategy-------------------- */
 /* ------------------What are we doing--------------*/
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
   .section-img{
     display: none;
   }
@@ -2726,11 +2729,11 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px){
 
 /* ------------------/What are we doing--------------*/
 /* ------------------Our Team----------------------- */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
   .section-cards {
     background: var(--cloud-color);
     text-align: center;
-    width: 100%;
+    min-width: 768px;
   }
   
   .social-list-team {
@@ -3102,7 +3105,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px){
 
 /* ------------------/Our Team----------------------- */
 /* ------------------Costumers-------------------- */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
   .costumers{
     padding: 120px 0;
     
@@ -3300,11 +3303,11 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px){
 
 /* ------------------/Costumers----------------------- */
 /* -------------------Footer-------------------- */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .page-footer {
     background: var(--accent-color);
     padding: 100px 0;
-    
+    min-width: 768px;
   }
   
   .page-footer .container{
