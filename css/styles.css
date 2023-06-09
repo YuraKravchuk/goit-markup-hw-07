@@ -3076,6 +3076,8 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px){
 
   .card-main-list{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 24px;
    
@@ -3090,8 +3092,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px){
     margin-right: auto;
   }
   .img-card{
-    margin-left: auto;
-    margin-right: auto;
+    
     width: 264px;
     margin-bottom: 72px;
     text-align: center;
