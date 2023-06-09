@@ -2745,6 +2745,13 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px){
     color: var(--accent-color);
     margin-bottom: 72px;
   }
+
+  .main-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
 }
 
 
