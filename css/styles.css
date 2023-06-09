@@ -44,8 +44,8 @@ ol {
 }
 
 .section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .link {
@@ -1124,8 +1124,7 @@ button:focus {
   
   .contact-info{
     display: block;
-    gap: 40px;
-    
+   
   }
   
   .contact-info-add {
@@ -1143,6 +1142,7 @@ button:focus {
   }
   
   .contact-info-link{
+   
     color: var(--color-text);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
   }
@@ -1151,6 +1151,11 @@ button:focus {
     color: var(--hover-btn);
   }
   
+  .email{
+    margin-bottom: 12px;
+
+  }
+
   .logo-white {
     font-family: var(--second-font);
     text-transform: uppercase;
@@ -1532,6 +1537,11 @@ button:focus {
     min-height: 576px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     padding: 72px 24px 24px 24px;
+    width: 95%;
+    max-width: 392px;
+    height: 95%;
+    max-height: 584px;
+    overflow: scroll;
   }
   
   .modal-close-btn{
@@ -1731,13 +1741,13 @@ screen and (min-resolution: 2dppx) and (max-width: 767px){
 @media screen and (min-width: 768px) and (max-width: 1158px){
   .title {
     background: var(--accent-color);
-    padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero_image/people-office.jpg);
+    padding: 112px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/tablet/people-office.jpg);
     background-size: cover;
-    max-width: 1440px;
+    max-width: 768px;
     background-repeat: no-repeat;
     background-position: center;
-    height: 600px;
+    height: 436px;
     margin: 0 auto;
     
   }
@@ -1993,7 +2003,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px){
 screen and (min-resolution: 192dpi) and (min-width: 768px),
 screen and (min-resolution: 2dppx) and (min-width: 768px){
   .title {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero_image/people-office@2x.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/tablet/people-office@2x.jpg);
   }
 }
 
@@ -2564,7 +2574,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px){
   .main-section-svg{
     display: none;
   }
-  .item-first-section{
+  .item-first-section:nth-last-child(n + 2){
     margin-bottom: 72px;
   }
 }
@@ -2603,15 +2613,15 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px){
    
   }
   .main-first-section{
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
   }
   .main-section-svg{
     display: none;
   }
   .item-first-section{
     width: 356px;
-    padding-bottom: 72px;
+   
 
   }
 }
@@ -2803,11 +2813,12 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px){
     margin-left: auto;
     margin-right: auto;
     width: 264px;
-    margin-bottom: 72px;
+    margin-top: 72px;
     text-align: center;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     background-color: var(--white-color); 
+    margin-bottom: 0;
   }
   
   .section-title {
@@ -2844,6 +2855,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px){
     color: var(--color-text);
     margin-bottom: 8px;
   }
+  
 }
 
 
@@ -2899,13 +2911,17 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px){
   
   
   .img-card{
+    background-color: var(--white-color);
     width: 264px;
-    margin-bottom: 72px;
+    
     text-align: center;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
   }
   
+  .card:nth-last-child(-n +2){
+    margin-top: 72px;
+  }
   .section-title {
     font-weight: 700;
     font-size: 36px;
@@ -3044,6 +3060,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px){
     background: var(--cloud-color);
     text-align: center;
     width: 100%;
+    padding: 120px 0;
   }
   
   .social-list-team {
@@ -3092,9 +3109,9 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px){
     margin-right: auto;
   }
   .img-card{
-    
+    background-color: var(--white-color);
     width: 264px;
-    margin-bottom: 72px;
+   
     text-align: center;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
@@ -3150,7 +3167,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px){
   
   .costumers-list{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     row-gap: 72px;
     column-gap: 16px;  
@@ -3189,7 +3206,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px){
 
 @media screen and (min-width: 768px) and (max-width: 1158px){
   .costumers{
-    padding: 120px 0;
+    padding: 96px 0;
   }
   
   .cust-title{
@@ -3209,7 +3226,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px){
   .costumer-link{
     border: 1px solid #8E8F99;
     border-radius: 4px;
-    width: 190px;
+    width: 168px;
     height: 88px;
     display: flex;
     justify-content: center;
@@ -3344,7 +3361,10 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px){
     
   }
 
-  
+  .container{
+    max-width: 428px;
+  }
+
   .logo-dark {
     font-family: var(--second-font);
     text-transform: uppercase;
@@ -3449,6 +3469,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px){
     line-height: 1.5;
     letter-spacing: 0.04em;
     margin-bottom: 16px;
+   
     
   }
   
@@ -3496,19 +3517,14 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px){
 @media screen and (min-width: 768px) and (max-width: 1158px) {
   .page-footer {
     background: var(--accent-color);
-    padding: 100px 0;    
+    padding: 96px 0;    
   }
   
-  .page-footer .container{
-    display: flex;
-    align-items: baseline;
-
-  }
+  
   
   .footer-content{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-left: 108px;
     flex-wrap: wrap;
    
   }
@@ -3623,7 +3639,8 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px){
   
   .footer-form{
     display: flex;
-    
+    justify-content: center;
+
    
   }
   
