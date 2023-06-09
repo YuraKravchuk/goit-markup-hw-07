@@ -2665,6 +2665,8 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px){
   
   .main-list{
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 24px;
   }
 
